@@ -229,7 +229,7 @@
 }
 .home__image img {
   width: 100%;
-  max-width: 500px;
+  object-fit: contain;
 }
 @media screen and (max-width: 992px) {
   .home__link_demo {

@@ -54,7 +54,7 @@ export default function Home() {
               data-aos-duration="1000"
               width={500}
               height={500}
-              src="svg/team.svg"
+              src="/image/team.jpg"
               alt="team"
               className="animate__animated animate__fadeIn"
               priority={true}
