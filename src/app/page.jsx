@@ -11,14 +11,14 @@ export default function Home() {
         <div className={`${styles.home__content} ${styles.container}`}>
           <div className={styles.home__text}>
             <h1
-              className={`${styles.home__title} animate__animated animate__fadeInUp`}
+              className={`${styles.home__title} animate__animated animate__fadeIn`}
             >
               <span>Build your team abroad and level-up</span>{" "}
               <span className={styles.home__span}>your business</span>{" "}
             </h1>
 
             <p
-              className={`${styles.home__subtitle} animate__animated animate__fadeInUp`}
+              className={`${styles.home__subtitle} animate__animated animate__fadeIn`}
             >
               Unlock the full potential of your business with our pre-vetted
               talent pool and advanced tech solutions
@@ -28,7 +28,7 @@ export default function Home() {
               <Link
                 href="#"
                 role="link"
-                className={`${styles.home__link_demo} animate__animated animate__fadeInUp`}
+                className={`${styles.home__link_demo} animate__animated animate__fadeIn`}
                 title="Clic para ir a About"
                 aria-label="Book a Demo"
               >
@@ -37,7 +37,7 @@ export default function Home() {
               <Link
                 href="#"
                 role="link"
-                className={`${styles.home__button} animate__animated animate__fadeInUp`}
+                className={`${styles.home__button} animate__animated animate__fadeIn`}
                 title="Clic para ir a About"
                 aria-label="Contact Us"
               >
@@ -54,7 +54,7 @@ export default function Home() {
               height={500}
               src="svg/team.svg"
               alt="team"
-              className=""
+              className="animate__animated animate__fadeIn"
               priority={true}
             />
           </div>

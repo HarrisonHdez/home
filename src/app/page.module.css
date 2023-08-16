@@ -267,21 +267,27 @@
     padding-top: 106px;
   }
   .home__title {
-    font-size: 55px;
+    font-size: 53px;
     line-height: 65px;
-    max-width: 610px;
+    max-width: 580px;
+    text-align: left;
   }
   .home__subtitle {
     font-size: 20px;
+    text-align: left;
+  }
+  .home__buttons {
+    flex-direction: row;
   }
   .home__button {
+    border: none;
   }
 }
 @media screen and (min-width: 992px) {
   .home__title {
-    font-size: 80px;
+    font-size: 65px;
     line-height: 73px;
-    max-width: 615px;
+    max-width: 530px;
     text-align: left;
   }
   .home__text {
@@ -296,5 +302,10 @@
   .home__link_demo {
   }
 }
-
+@media screen and (min-width: 1200px) {
+  .home__title {
+    font-size: 80px;
+    max-width: 615px;
+  }
+}
 /*____________ Home ___________*/
