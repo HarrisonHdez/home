@@ -26,6 +26,7 @@ export default function Home() {
 
             <div className={styles.home__buttons}>
               <Link
+                tabIndex={0}
                 href="#"
                 role="link"
                 className={`${styles.home__link_demo} animate__animated animate__fadeIn`}
@@ -35,6 +36,7 @@ export default function Home() {
                 Book a Demo
               </Link>
               <Link
+                tabIndex={0}
                 href="#"
                 role="link"
                 className={`${styles.home__button} animate__animated animate__fadeIn`}
