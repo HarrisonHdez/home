@@ -23,7 +23,6 @@ export default function Home() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Doloremque nulla velit cum similique ipsum.
             </p>
-
             <div className={styles.home__buttons}>
               <Link
                 tabIndex={0}
