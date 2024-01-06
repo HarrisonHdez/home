@@ -10,7 +10,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <nav
       className={`${styles.nav} animate__animated  animate__fadeInDown`}
