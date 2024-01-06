@@ -30,14 +30,7 @@ const Navbar = () => {
             }
           }}
         >
-          <Image
-            width={197}
-            height={40}
-            src="svg/logo.svg"
-            alt="logo"
-            priority={true}
-            className={styles.nav__logo}
-          />
+          Logo
         </Link>
 
         <div
@@ -58,7 +51,7 @@ const Navbar = () => {
               }
             }}
           >
-            Book a Demo
+            Lorem ipsum
           </Link>
 
           <Link
@@ -124,7 +117,7 @@ const Navbar = () => {
               }
             }}
           >
-            Book a Demo
+            Lorem ipsum
           </Link>
         </div>
 

@@ -20,8 +20,8 @@ export default function Home() {
             <p
               className={`${styles.home__subtitle} animate__animated animate__fadeIn`}
             >
-              Unlock the full potential of your business with our pre-vetted
-              talent pool and advanced tech solutions
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque nulla velit cum similique ipsum.
             </p>
 
             <div className={styles.home__buttons}>
@@ -33,7 +33,7 @@ export default function Home() {
                 title="Clic para ir a About"
                 aria-label="Book a Demo"
               >
-                Book a Demo
+                Lorem ipsum
               </Link>
               <Link
                 tabIndex={0}
